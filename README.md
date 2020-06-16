@@ -1,1 +1,1 @@
-TinDog Starting Files
+# Tin-dog page using Bootstrap
