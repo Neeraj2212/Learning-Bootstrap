@@ -10,8 +10,9 @@ h1 {
 	line-height: 1.5;
 }
 
+
 .container-fluid {
-	padding: 3% 15%;
+	padding: 3% 15% 7%;
 }
 
 body {
@@ -51,6 +52,7 @@ body {
 	width: 60%;
 	transform: rotate(25deg);
 	position: absolute;
+	right: 30%;
 }
 
 /* icons */
@@ -73,7 +75,7 @@ body {
 #features {
 	background-color: #fff;
 	position: relative;
-	z-index: 1;
+
 }
 
 h3 {
@@ -142,4 +144,19 @@ h2 {
 
 .pricing-col {
 	padding: 3% 4%;
+}
+
+@media (max-width: 1028px) {
+
+	#title {
+		text-align: center;
+	}
+
+	.title-image {
+
+		position: static;
+		transform: rotate(0);
+	}
+
+
 }
